@@ -2,17 +2,69 @@
 
 A web application to calculate your Financial Independence, Retire Early (FIRE) number based on your annual expenses and safe withdrawal rate.
 
-## 🚀 Features
+---
+
+# 🎨 DESIGN GUIDELINES - READ FIRST!
+
+**⚠️ IMPORTANT: Before making ANY UI/UX changes or generating code, you MUST follow these design guidelines.**
+
+This section outlines the design principles, UI expectations, and styling rules that **ALL developers and AI assistants** must follow when working on this codebase.
+
+## 🎨 Color Palette
+
+**ONLY use these 5 colors as your primary design palette:**
+
+| Light Blue | Teal | Navy | Gold | Orange |
+|------------|------|------|------|--------|
+| `#94D2F5`  | `#24A4C4` | `#002B45` | `#FFC107` | `#FF8C00` |
+
+### Color Usage Rules:
+- **Navy (`#002B45`)**: Headers, accents, key contrast elements
+- **Teal (`#24A4C4`)**: Primary backgrounds, info cards, calming UI
+- **Light Blue (`#94D2F5`)**: Secondary backgrounds, subtle highlights
+- **Gold (`#FFC107`)**: Call-to-actions, important buttons (use sparingly)
+- **Orange (`#FF8C00`)**: Critical actions, warnings (use very sparingly)
+
+## 🧩 Styling Requirements
+
+### ✅ DO:
+- Use **Tailwind CSS classes** for all styling
+- Keep designs simple and accessible
+- Use system fonts (`font-sans`)
+- Follow the color palette strictly
+- Make UI responsive and mobile-friendly
+
+### ❌ DON'T:
+- Use random colors outside the defined palette
+- Add custom CSS files unless absolutely necessary
+- Overcomplicate animations or custom elements
+- Use gradients or complex visual effects
+- Override Tailwind with custom styles
+
+## 🔧 Code Generation Rules
+
+**When generating or editing code, ALWAYS:**
+1. Reference this color palette for any styling
+2. Use Tailwind CSS classes instead of inline styles
+3. Keep the design clean and consistent
+4. Follow the established UI patterns
+
+---
+
+# 🚀 Project Overview
+
+## Features
 
 - **Web-based FIRE Calculator**: Calculate your FIRE number with a simple, intuitive interface
 - **API Endpoint**: RESTful API for programmatic access to calculations
 - **Responsive Design**: Works on desktop and mobile devices
 - **Real-time Calculations**: Instant results as you input your data
 
-## 🛠️ Technology Stack
+## Technology Stack
 
 - **Backend**: .NET 9.0 Web API
 - **Frontend**: HTML, CSS, JavaScript
+- **Styling**: Tailwind CSS (following design guidelines above)
 - **Deployment**: Docker containerization
 - **Hosting**: Render (cloud platform)
 
@@ -57,7 +109,7 @@ Response:
 }
 ```
 
-## 🚀 Deployment
+## 🚀 Development & Deployment
 
 ### Local Development
 ```bash
@@ -78,45 +130,11 @@ docker run -p 5000:5000 fire-calculator
 FireCalculator/
 ├── Controllers/
 │   └── FireController.cs      # API endpoints
-├── Program.cs                 # Application entry point
+├── Program.cs                 # Application entry point (contains UI)
 ├── FireCalculator.csproj      # Project configuration
 ├── Dockerfile                 # Container configuration
 └── README.md                  # This file
 ```
-
----
-
-# 🔧 DESIGN GUIDELINES
-
-This file outlines the design principles, UI expectations, and styling rules to be followed **before making any UI/UX changes** to the FIRE Calculator App. It is meant for developers (including AI like Cursor) working on this codebase.
-
-## 🎨 Color Palette
-
-Only use the following 5 colors as your **primary** design palette. These should be referenced in Tailwind via custom config (or using Tailwind's extended colors if mapped).
-
-| Light Blue | Teal | Navy | Gold | Orange |
-|------------|------|------|------|--------|
-| `#94D2F5`  | `#24A4C4` | `#002B45` | `#FFC107` | `#FF8C00` |
-
-Use these colors thoughtfully:
-- Use **Navy (`#002B45`)** for headers, accents, and key contrast elements.
-- Use **Teal (`#24A4C4`)** and **Light Blue (`#94D2F5`)** for backgrounds, info cards, and calming UI.
-- Use **Gold (`#FFC107`)** and **Orange (`#FF8C00`)** sparingly to highlight actions, call-to-actions, or important figures.
-
-## 🧩 Tailwind CSS Usage
-
-✅ **Use Tailwind CSS for all styling** — no inline styles or custom CSS unless absolutely required.
-
-✅ Keep it simple and accessible — don't overcomplicate animations or custom elements.
-
-- ❌ Don't use random colors or gradients outside the defined palette. 
-- ❌ Don't overwrite Tailwind with custom CSS files unless it's a theme-wide fix.
-
-- Fonts: Stick with system fonts or Tailwind's default stack (`font-sans`)
-
----
-
-✅ Follow this guide to keep the design clean, fast, and consistent. All PRs and auto-generated UI changes must align with this document.
 
 ## 📝 License
 
@@ -126,9 +144,12 @@ This project is open source and available under the [MIT License](LICENSE).
 
 1. Fork the repository
 2. Create a feature branch
-3. Make your changes following the design guidelines
-4. Submit a pull request
+3. **Follow the design guidelines above**
+4. Make your changes using the specified color palette and Tailwind CSS
+5. Submit a pull request
 
 ---
 
-**Built with ❤️ for the FIRE community** 
+**Built with ❤️ for the FIRE community**
+
+*Remember: Always reference the design guidelines when making any UI/UX changes!* 
