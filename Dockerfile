@@ -6,7 +6,7 @@ WORKDIR /app
 COPY . ./
 
 # Restore and publish the app
-RUN dotnet publish -c Release -o out
+RUN dotnet publish FireCalculator.csproj -c Release -o out
 
 # Stage 2: Run the application
 FROM mcr.microsoft.com/dotnet/aspnet:8.0
