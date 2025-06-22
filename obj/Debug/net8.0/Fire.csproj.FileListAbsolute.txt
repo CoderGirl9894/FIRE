@@ -1,0 +1,15 @@
+C:\Users\chris\OneDrive\Documents\My Fire Calculator\Fire\bin\Debug\net8.0\Fire.exe
+C:\Users\chris\OneDrive\Documents\My Fire Calculator\Fire\bin\Debug\net8.0\Fire.deps.json
+C:\Users\chris\OneDrive\Documents\My Fire Calculator\Fire\bin\Debug\net8.0\Fire.runtimeconfig.json
+C:\Users\chris\OneDrive\Documents\My Fire Calculator\Fire\bin\Debug\net8.0\Fire.dll
+C:\Users\chris\OneDrive\Documents\My Fire Calculator\Fire\bin\Debug\net8.0\Fire.pdb
+C:\Users\chris\OneDrive\Documents\My Fire Calculator\Fire\obj\Debug\net8.0\Fire.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\chris\OneDrive\Documents\My Fire Calculator\Fire\obj\Debug\net8.0\Fire.AssemblyInfoInputs.cache
+C:\Users\chris\OneDrive\Documents\My Fire Calculator\Fire\obj\Debug\net8.0\Fire.AssemblyInfo.cs
+C:\Users\chris\OneDrive\Documents\My Fire Calculator\Fire\obj\Debug\net8.0\Fire.csproj.CoreCompileInputs.cache
+C:\Users\chris\OneDrive\Documents\My Fire Calculator\Fire\obj\Debug\net8.0\Fire.sourcelink.json
+C:\Users\chris\OneDrive\Documents\My Fire Calculator\Fire\obj\Debug\net8.0\Fire.dll
+C:\Users\chris\OneDrive\Documents\My Fire Calculator\Fire\obj\Debug\net8.0\refint\Fire.dll
+C:\Users\chris\OneDrive\Documents\My Fire Calculator\Fire\obj\Debug\net8.0\Fire.pdb
+C:\Users\chris\OneDrive\Documents\My Fire Calculator\Fire\obj\Debug\net8.0\Fire.genruntimeconfig.cache
+C:\Users\chris\OneDrive\Documents\My Fire Calculator\Fire\obj\Debug\net8.0\ref\Fire.dll
